@@ -12,6 +12,7 @@ body{
     padding-left: 30px;
     position: fixed;
     width: 100%;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3); /*ヘッダー下の影*/
 }
 .header h1{
     color: #ffffff;
@@ -20,6 +21,10 @@ body{
     
 }
 /*ヘッダー END*/
+/*メイン START*/
+.main{
+    padding-top: 120px;
+}
 .heading{
     padding: 20px;
 }
@@ -86,6 +91,7 @@ mark {
     padding: 5px;
     font-size: 30px;
 }
+/*メイン END*/
 
 /*フッター START*/
 .copyright{
@@ -96,3 +102,71 @@ mark {
     padding: 10px;
 }
 /*フッター END*/
+
+/*スマホ・タブレット表示 START*/
+@media (max-width: 768px) {
+    /*ヘッダー START*/
+    .header{
+        height: 80px;
+        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3); /*ヘッダー下の影*/
+    }
+    
+    .header h1{
+        font-size: 30px;
+        line-height: 80px; /*ヘッダーの高さと合わせる*/
+    }
+    /*ヘッダー END*/
+
+    /*メイン START*/
+    .main{
+        padding-top: 100px;
+    }
+    .heading{
+        padding: 10px;
+    }
+    .heading h1, .heading p{
+        text-align: center;
+        letter-spacing: 1px;
+    }
+    .heading h1{
+        font-size: 25px;
+    }
+    .heading p{
+        font-size: 15px;
+        /*padding-top: 3px;*/
+    }
+    .container{
+        padding: 5px;
+        display: block;
+    }
+    .image-area{
+        width: 100%;
+    }
+    
+    .wrapper{
+        padding-bottom: 10px;
+        letter-spacing: 1px;
+    }
+    .wrapper h2{
+        padding-bottom: 5px;
+        font-size: 15px;
+    }
+    .wrapper a, .wrapper p,.wrapper ul{
+        font-size: 15px;
+    }
+    
+    .content-area{
+        width: 100%;
+        padding: 0;
+    }
+    .content-area h1{
+        padding: 20px;
+        font-size: 23px;
+    }
+    /*メイン END*/
+
+    
+
+    
+}
+/*スマホ・タブレット表示 END*/
