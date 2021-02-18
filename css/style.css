@@ -72,6 +72,9 @@ span {
 .wrapper a{
     font-size: 25px;
 }
+.wrapper a:hover{
+    color: #cf1126;
+}
 .wrapper ul{
     margin-left: 20px;
 }
