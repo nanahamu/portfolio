@@ -61,7 +61,7 @@ body{
     padding: 15px;
     letter-spacing: 1.5px;
 }
-mark {
+span {
     background: linear-gradient(transparent 80%, #FFF100 0%);
     padding: 4px;
 }
@@ -161,7 +161,7 @@ mark {
     }
     .content-area h1{
         padding: 20px;
-        font-size: 23px;
+        font-size: 20px;
     }
     /*メイン END*/
 
