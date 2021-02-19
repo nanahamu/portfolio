@@ -3,6 +3,7 @@ body{
     color: #333;
     font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
     margin: 0;
+    background-color: #f0f8ff;
 }
 /*ベース・共通部分 END*/
 /*ヘッダーSTART*/
@@ -75,7 +76,6 @@ span {
 }
 .wrapper a:hover{
     color: #cf1126;
-    font-size: 30px;
 }
 .wrapper ul{
     margin-left: 20px;
