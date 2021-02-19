@@ -86,10 +86,9 @@ span {
 
 .content-area{
     width: 50%;
-    padding: 30px;
+    padding-left: 30px;
 }
 .content-area h1{
-    padding: 5px;
     font-size: 30px;
 }
 /*メイン END*/
@@ -158,10 +157,12 @@ span {
     
     .content-area{
         width: 100%;
-        padding: 0;
+        padding-top: 10px;
+        padding-left: 0;
+        margin-bottom: 50px;
     }
     .content-area h1{
-        padding: 20px;
+        padding: 0;
         font-size: 20px;
     }
     /*メイン END*/
