@@ -71,9 +71,11 @@ span {
 }
 .wrapper a{
     font-size: 25px;
+    transition: all 0.3s;
 }
 .wrapper a:hover{
     color: #cf1126;
+    font-size: 30px;
 }
 .wrapper ul{
     margin-left: 20px;
