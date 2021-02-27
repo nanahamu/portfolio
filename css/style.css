@@ -53,6 +53,7 @@ body{
 
 .image-area img{
     width: 100%;
+    border: medium solid #c9ab53;
 }
 .wrapper{
     padding: 15px;
